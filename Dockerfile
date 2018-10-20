@@ -19,7 +19,7 @@ RUN apt-get install -y git
 RUN pip install --upgrade pip
 
 # Upgrade setuptools
-RUN pip --upgrade setuptools
+RUN pip install --upgrade setuptools
 
 # Install jupyter
 RUN pip install jupyter
