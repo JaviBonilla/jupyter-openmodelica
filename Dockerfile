@@ -43,9 +43,8 @@ ENV HOME /home/openmodelicausers
 ENV USER openmodelicausers
 WORKDIR $HOME
 
-# Clone jupyter notebook
+# Clone jupyter notebook (binder file: jupyter-openmodelica/OpenModelica.ipynb)
 RUN git clone https://github.com/JaviBonilla/jupyter-openmodelica.git
-RUN cd jupyter-openmodelica
 
 EXPOSE 8888
 
