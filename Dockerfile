@@ -13,7 +13,9 @@ RUN apt-get install -y omc omlib-modelica-3.2.2
 
 # Install Python components
 RUN apt-get install -y python-pip python-dev build-essential 
+RUN apt-get install -y python-tornado
 RUN apt-get install -y git
+
 
 # Install Jupyter notebook, always upgrade pip
 RUN pip install --upgrade pip
