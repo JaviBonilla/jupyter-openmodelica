@@ -45,7 +45,7 @@ WORKDIR $HOME
 
 # Clone jupyter notebook
 RUN git clone https://github.com/JaviBonilla/jupyter-openmodelica.git
-cd jupyter-openmodelica
+RUN cd jupyter-openmodelica
 
 EXPOSE 8888
 
