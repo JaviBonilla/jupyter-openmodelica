@@ -19,6 +19,9 @@ RUN apt-get install -y git
 RUN pip install --upgrade pip
 RUN pip install jupyter
 
+# Upgrade setuptools
+RUN pip --updgrade setuptools
+
 # Install OMPython and jupyter-openmodelica kernel
 RUN pip install -U git+git://github.com/OpenModelica/OMPython.git
 RUN pip install -U git+git://github.com/OpenModelica/jupyter-openmodelica.git

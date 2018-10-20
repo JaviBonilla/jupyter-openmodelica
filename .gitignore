@@ -2,3 +2,10 @@
 *.ipynb
 *.[cho]
 build
+/Pendulum
+/Pendulum.libs
+/Pendulum.log
+/Pendulum.makefile
+/Pendulum_info.json
+/Pendulum_init.xml
+/Pendulum_res.mat
